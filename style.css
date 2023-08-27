@@ -12,7 +12,8 @@
 
 body{
     font-family: "Roboto" , "sans-serif";
-    color: var(--primary-text-color);
+    color: #2294ed;
+    ;
 }
 p{
     font-family: "Roboto" , "sans-serif";
@@ -36,7 +37,7 @@ ul{
 }
 nav{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: rgb(10, 7, 7) ;
+    background-color: #000000 ;
     box-shadow: 0 0 4px azure;
     position: fixed;
     top: 0;
@@ -93,6 +94,7 @@ nav{
 main{
     padding-block: 20px;
     margin-top: 80px;
+    background-color: #ffffbf;
 }
 .cards-container{
     justify-content: space-between;
@@ -106,13 +108,13 @@ main{
     box-shadow: 0 0 4px #d4ecff;
     border-radius: 4px;
     cursor: pointer;
-    background-color: #fff;
+    background-color: #ffffff;
     overflow: hidden;
     transition: all 0.4s ease;
 }
 .cards:hover:hover{
     box-shadow: 1 1 8px #d4ecff;
-    background-color: #f9fdff;
+    background-color: #ffee98;
     transform: translateY(-2px);
 }
 .cards-header img{
